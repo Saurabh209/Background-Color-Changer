@@ -3,13 +3,12 @@ import { useState } from "react";
 import "./App.css";
 
 function App() {
-  const [color, setcolor] = useState("red");
+  const [color, setcolor] = useState("olive");
 
   return (
-    <div
-      className="w-full h-screen duration-200 flex items-center justify-center"
+    <div class="box"
       style={{ backgroundColor: color }}
-    > <h3 className="text-white text-4xl font-bold">Your Name Here</h3></div>
+    > </div>
   );
 }
 
