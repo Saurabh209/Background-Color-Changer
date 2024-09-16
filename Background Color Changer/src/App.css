@@ -11,8 +11,19 @@
 .buttonContainer{
   height: 70px;
   width:800px;
+  font-size: 20px;
+  background-color: rgb(108, 108, 108);
   border: 1px solid black;
   border-radius: 5px;
   margin-bottom: 30px;
+  display: flex;
+  justify-content:space-evenly;
+  align-items:center;
   
+}
+.button{
+  height: 50px;
+  width: 120px;
+  border-radius: 3px;
+  border: 1px solid black;
 }

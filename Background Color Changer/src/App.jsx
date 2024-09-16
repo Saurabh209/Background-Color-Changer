@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 import "./App.css";
-import Button from "./assets/Button/Button.jsx";
+
 function App() {
   const [color, setcolor] = useState("olive");
 
@@ -10,8 +10,13 @@ function App() {
       style={{ backgroundColor: color }}
     >
       <div class="buttonContainer">
-        <button />
-        <button/>
+      <button class="button" onClick={()=>setcolor("red")} style={{backgroundColor:"Red"}}></button>
+      <button class="button" onClick={()=>setcolor("blue")} style={{backgroundColor:"blue"}}></button>
+      <button class="button" onClick={()=>setcolor("green")} style={{backgroundColor:"green"}}></button>
+      <button class="button" onClick={()=>setcolor("yellow")} style={{backgroundColor:"yellow"}}></button>
+      <button class="button" onClick={()=>setcolor("purple")} style={{backgroundColor:"purple"}}></button>
+      <button class="button" onClick={()=>setcolor("orange")} style={{backgroundColor:"orange"}}></button>
+      
       </div>
     </div>
   );
