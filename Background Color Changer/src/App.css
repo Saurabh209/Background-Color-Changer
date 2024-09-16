@@ -3,3 +3,16 @@
   width: 100%;
   
 }
+.box{
+  display: flex;
+  justify-content: center;
+  align-items:end;
+}
+.buttonContainer{
+  height: 70px;
+  width:800px;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-bottom: 30px;
+  
+}
