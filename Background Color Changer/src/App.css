@@ -7,13 +7,16 @@
   display: flex;
   justify-content: center;
   align-items:end;
+  transition-property: all;
+  transition-duration: .5s;
+  transition-timing-function: ease-in-out;
 }
 .buttonContainer{
-  height: 70px;
-  width:800px;
+  /* height: 5%; */
+  /* width:40%; */
   font-size: 20px;
   background-color: rgb(108, 108, 108);
-  border: 1px solid black;
+  /* border: 1px solid black; */
   border-radius: 5px;
   margin-bottom: 30px;
   display: flex;
@@ -23,7 +26,7 @@
 }
 .button{
   height: 50px;
-  width: 120px;
-  border-radius: 3px;
-  border: 1px solid black;
+  width: 50px;
+  
+  
 }
